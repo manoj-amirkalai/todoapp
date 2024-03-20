@@ -44,7 +44,7 @@ function App() {
             trigger="morph"
             colors="primary:#121331"
             state="morph-fill"
-            style={{ width: "15px", height: "15px" }}
+            className="deleteicon"
           ></lord-icon>
         </button>
       </li>

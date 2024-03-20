@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './input.css'
 
 function InpuText (props){
     const [inputext,setInputext]=useState("")
