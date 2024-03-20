@@ -7,13 +7,16 @@ function InpuText (props){
         setInputext(e.target.value)
     }
     const handlesubmit=()=>{
+      if(inputext!==''){
         props.additems(inputext)
-        setInputext("")
+        setInputext("")}else{
+          alert("Please Enter ToDo to add")
+        }
     }
     
   return (
     <div className='input'>
-      <input type="text" onChange={handlechange} value={inputext}/>
+      <input type="text" onChange={handlechange} placeholder='Please Enter ToDo to add' value={inputext} />
       <button onClick={handlesubmit}>Add</button>
     </div>
   )

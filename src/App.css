@@ -7,7 +7,6 @@
 }
 .body {
   margin-top: 5%;
-  height: 75vh;
   margin-left: 25%;
   padding: 20px;
   width: 40%;
@@ -49,7 +48,6 @@ span {
   .body {
     margin: 100px 0 0 50px;
     width: 80%;
-    min-height: 75vh;
   }
   .delete {
     height: 50px;
@@ -63,7 +61,6 @@ span {
   .body {
     margin: 20px 0 0 20px;
     width: 80%;
-    min-height: 75vh;
   }
   .delete {
     height: 20px;
